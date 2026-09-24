@@ -1,0 +1,172 @@
+{
+  "data": {
+    "n_customers": 8000,
+    "n_train": 6400,
+    "n_test": 1600,
+    "churn_rate": 0.184,
+    "features": [
+      "tenure_months",
+      "contract",
+      "internet_service",
+      "payment_method",
+      "tech_support",
+      "num_products",
+      "age",
+      "monthly_charges",
+      "total_charges",
+      "support_tickets_90d",
+      "late_payments_12m",
+      "avg_monthly_gb"
+    ],
+    "excluded_leaky": [
+      "final_invoice_sent"
+    ]
+  },
+  "cv": {
+    "Baseline (base rate)": {
+      "pr_auc_mean": 0.18406250000000002,
+      "pr_auc_std": 0.000382732772309877,
+      "roc_auc_mean": 0.5,
+      "roc_auc_std": 0.0
+    },
+    "Logistic regression": {
+      "pr_auc_mean": 0.44408829361177454,
+      "pr_auc_std": 0.02705063584726363,
+      "roc_auc_mean": 0.7789059534453376,
+      "roc_auc_std": 0.01664776855304741
+    },
+    "Gradient boosting": {
+      "pr_auc_mean": 0.4123081465650581,
+      "pr_auc_std": 0.020539253962890986,
+      "roc_auc_mean": 0.7625994506822978,
+      "roc_auc_std": 0.017539452335037946
+    }
+  },
+  "selected_model": "Logistic regression",
+  "threshold": 0.19999999999999998,
+  "test_by_model": {
+    "Baseline (base rate)": {
+      "pr_auc": 0.18375,
+      "roc_auc": 0.5
+    },
+    "Logistic regression": {
+      "pr_auc": 0.4706168154214913,
+      "roc_auc": 0.7860242106030774
+    },
+    "Gradient boosting": {
+      "pr_auc": 0.4536706934205959,
+      "roc_auc": 0.7793126438936985
+    }
+  },
+  "test_at_default": {
+    "threshold": 0.5,
+    "precision": 0.6086956521739131,
+    "recall": 0.19047619047619047,
+    "f1": 0.29015544041450775,
+    "tp": 56,
+    "fp": 36,
+    "fn": 238,
+    "tn": 1270,
+    "share_contacted": 0.0575,
+    "pr_auc": 0.4706168154214913,
+    "roc_auc": 0.7860242106030774
+  },
+  "test_at_tuned": {
+    "threshold": 0.19999999999999998,
+    "precision": 0.3544093178036606,
+    "recall": 0.7244897959183674,
+    "f1": 0.47597765363128486,
+    "tp": 213,
+    "fp": 388,
+    "fn": 81,
+    "tn": 918,
+    "share_contacted": 0.375625,
+    "pr_auc": 0.4706168154214913,
+    "roc_auc": 0.7860242106030774
+  },
+  "top_decile": {
+    "churn_rate": 0.525,
+    "lift": 2.857142857142857
+  },
+  "profit_per_1000": {
+    "contact_nobody": 0.0,
+    "contact_everyone": -1625.0,
+    "default_threshold": 2350.0,
+    "tuned_threshold": 5800.0
+  },
+  "sensitivity": [
+    {
+      "save_rate": 0.1,
+      "profit_per_1000": -4184.375
+    },
+    {
+      "save_rate": 0.2,
+      "profit_per_1000": -856.25
+    },
+    {
+      "save_rate": 0.4,
+      "profit_per_1000": 5800.0
+    },
+    {
+      "save_rate": 0.6,
+      "profit_per_1000": 12456.25
+    }
+  ],
+  "importance": [
+    {
+      "feature": "contract",
+      "importance": 0.1380421483559055,
+      "std": 0.020109801091798184
+    },
+    {
+      "feature": "tenure_months",
+      "importance": 0.077235758800329,
+      "std": 0.00885980580554644
+    },
+    {
+      "feature": "support_tickets_90d",
+      "importance": 0.04028633675315496,
+      "std": 0.008583714233690453
+    },
+    {
+      "feature": "late_payments_12m",
+      "importance": 0.038172721903126504,
+      "std": 0.00797391130689604
+    },
+    {
+      "feature": "internet_service",
+      "importance": 0.022435599758994694,
+      "std": 0.008232570010691654
+    },
+    {
+      "feature": "payment_method",
+      "importance": 0.013291189121120617,
+      "std": 0.003438666197490446
+    },
+    {
+      "feature": "tech_support",
+      "importance": 0.013260833691658046,
+      "std": 0.00986416412135186
+    },
+    {
+      "feature": "monthly_charges",
+      "importance": 0.008421828686970667,
+      "std": 0.007676438252297817
+    },
+    {
+      "feature": "num_products",
+      "importance": 0.0033482798122059453,
+      "std": 0.002759766766365722
+    },
+    {
+      "feature": "total_charges",
+      "importance": 0.001985887876277259,
+      "std": 0.0009297186214453519
+    }
+  ],
+  "costs": {
+    "customer_value": 250.0,
+    "contact_cost": 20.0,
+    "save_rate": 0.4
+  }
+}
