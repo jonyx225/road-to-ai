@@ -1,0 +1,151 @@
+text,label,wording
+It would be really helpful to have keyboard shortcuts. I am using the Android version. Appreciate the quick help.,feature_request,direct
+"Hey, The app crashes every time I open it. Reference: order #37409.",technical_issue,direct
+"Hello team, I need a return label for my Nova headphones. I am using the Android version. This is relaly frustrating.",refund_return,direct
+"Good morning, My package has not arrived yet and it was supposed to be here days ago. Thanks.",shipping,direct
+"Hi, It worked fine yesterday but today it just shows a blank white page.",technical_issue,indirect
+"Hey, My account is locked after too many login attempts.",account_access,direct
+"Hello team, Can you support login with Apple in a future version? Let me know what I can do.",feature_request,direct
+"Good morning, A neighbour said a delivery person left a card but I never saw a package. Reference: order #38108. Please help.",shipping,indirect
+My bank statement shows two identical transactions from you this month. Reference: order #58636. This is really frustrating.,billing,indirect
+"good morning, i need to update the credit card on file for my billing. i am using the windows version. thanks in advance!",billing,direct
+My whole team would switch to you if there was a way to set custom reminders. Appreciate the quick help.,feature_request,indirect
+"Hello team, This is not what I expected, I would like to send it back and get my money returned. This is the second time I am writing about this. Appreciate the quick help.",refund_return,indirect
+"Hi, This is not what I expected, I would like to send it back and get my money returned. This is the second time I am writing about this. This is really frustrating.",refund_return,indirect
+Notifications stopped working after the latest update. Please help.,technical_issue,direct
+"Hi, My payment failed but the money was still taken from my card.",billing,direct
+How long will shipping take to my country? Thanks in advance!,shipping,direct
+"The delivery address on my order is wrong, can you change it? I am using the iOS version. This is really frustrating.",shipping,direct
+"Hi, I wish the dashboard let me compare two months side by side. Thanks in advance!",feature_request,indirect
+"Hey, Tracking says my parcel is stuck at the local depot. Let me know what I can do.",shipping,direct
+"Hi, Sync between my phone and laptop is not working. Please help.",technical_issue,direct
+"Hello team, The site keeps sending me back to the sign-in page in a loop. Thanks in advance!",account_access,indirect
+Why did my subscription price go up? My bill is higher than usual. Please help.,billing,direct
+Sync between my phone and laptop is not working. I am using the Windows version. Let me know what I can do.,technical_issue,direct
+"To whom it may concern, Please consider adding support for more languages. Thanks.",feature_request,direct
+"Hello team, I was billed after I cancelled my subscription. I am using the iOS version. Thanks in advance!",billing,direct
+"Good morning, I need to update the credit card on file for my billing. Please help.",billing,direct
+"Hey, I need to update the credit card on file for my billing.",billing,direct
+"Hello team, Where is my order? The tracking page has not updated in a week. Reference: order #69588.",shipping,direct
+"Hello team, Where is my order? The tracking page has not updated in a week. Thanks in advance!",shipping,direct
+"To whom it may concern, I do not want this anymore, what are my options to be reimbursed? Let me know what I can do.",refund_return,indirect
+Where is my order? The tracking page has not updated in a week. I am using the web version. Thanks.,shipping,direct
+I would like a refund for my order. Thanks in advance!,refund_return,direct
+"Hello team, I changed my mind and would like to return my subscription within the return window.",refund_return,direct
+I was charged twice for my order this month. I have been a customer for 5 years.,billing,direct
+"hey, please consider adding support for more languages.",feature_request,direct
+"To whom it may concern, Part of my order is missing from the box that was delivered.",shipping,direct
+"Hello team, Please take this back, it does not do what the description promised. Let me know what I can do.",refund_return,indirect
+"Good morning, My account is locked after too many login attempts. Appreciate the quick help.",account_access,direct
+"Hi, It broke after two days, I do not want a replacement, I just want to be paid back. Reference: order #36977.",refund_return,indirect
+"Good morning, A neighbour said a delivery person left a card but I never saw a package. Please help.",shipping,indirect
+"To whom it may concern, I cannot upload files, the progress bar gets stuck at 90 percent. This is really frustrating.",technical_issue,direct
+"Hi, How long will shipping take to my country?",shipping,direct
+Notifications stopped working after the latest update. Thanks.,technical_issue,direct
+"Hi, Every time I try to export the report, the whole thing shuts down. Thanks in advance!",technical_issue,indirect
+A bulk edit feature would save me hours every week.,feature_request,direct
+"Good morning, How do I return the desktop app? It does not fit. Appreciate the quick help.",refund_return,direct
+"Hello team, Ever since the update, nothing responds when I tap the buttons. Appreciate the quick help.",technical_issue,indirect
+"Good morning, My package has not arrived yet and it was supposed to be here days ago. Reference: order #38384. Please help.",shipping,direct
+"Hello team, Please process a return for my order. Let me know what I can do.",refund_return,direct
+i would like a refund for the smart lamp. please help.,refund_return,direct
+"Hello team, Can I get a refund for the unused months of my plan? I have been a customer for 6 years. Let me know what I can do.",refund_return,direct
+"Hey, Please consider adding support for more languages. Reference: order #92275. Appreciate the quick help.",feature_request,direct
+"Hi, My old work email no longer exists, how do I move everything to my new address? Appreciate the quick help.",account_access,indirect
+"Hey, I forgot my password and the reset email never arrives. This is really frustrating.",account_access,direct
+The page loads very slowly and sometimes freezes.,technical_issue,direct
+"Good morning, I got a message saying there was a login from another country and it was not me. Please help.",account_access,indirect
+"Hi, I keep getitng error code 500 when I try to save my work.",technical_issue,direct
+"Hello team, The item arrived damaged and I want to send it back for a full refund. This is the second time I am writing about this.",refund_return,direct
+"Hlelo team, the Pro plan will not connect to wifi anymore. This is really frustrating.",technical_issue,direct
+"hey, somenoe else may have accessed my account, i need to secure it. appreciate the quick help.",account_access,direct
+"To whom it may concern, The estimated arrival date came and went and I have heard nothing. This is the second time I am writing about this.",shipping,indirect
+"Hello team, I would like a refnud for the mobile app. I am using the Android version. Let me know what I can do.",refund_return,direct
+"Hi, The amount on my invoice does not match the plan I signed up for. Thanks in advance!",billing,direct
+"Hello team, I do not want this anymore, what are my options to be reimbursed?",refund_return,indirect
+"Hello team, I would like a refund for my Starter account. I am using the iOS version. Thanks.",refund_return,direct
+"Hi, I need a return label for my order. Thanks.",refund_return,direct
+"Good morning, Please take this back, it does not do what the description promised. This is really frustrating.",refund_return,indirect
+It would be really helpful to have keyboard shortcuts. Please help.,feature_request,direct
+"Hey, I changed my mind and would like to return my order within the return window. Appreciate the quick help.",refund_return,direct
+"Hi, Part of my order is missing from the box that was delivered. Appreciate the quick help.",shipping,direct
+part of my order is missing from the box that was delivered. this is the second time i am writing about this. this is really frustrating.,shipping,direct
+"Hi, The courier keeps missing me, can I reschedule the delivery? I am using the Windows version. Appreciate the quick help.",shipping,direct
+"Hello team, I was billed after I cancelled my subscription. This is really frustrating.",billing,direct
+"To whom it may concern, I have tried every password I can think of and still cannot get in. Thanks in advance!",account_access,indirect
+"Hi, my odrer will not connect to wifi anymore. This is really frustrating.",technical_issue,direct
+"To whom it may concern, Any plans to add multiple user profiles on one account? Appreciate the quick help.",feature_request,direct
+"Hi, I cannot log in, it says my credentials are invalid. Appreciate the quick help.",account_access,direct
+"Hey, It broke after two days, I do not want a replacement, I just want to be paid back. This is the second time I am writing about this. Appreciate the quick help.",refund_return,indirect
+"Hey, Please process a return for my order. Thanks in advance!",refund_return,direct
+"Right now I have to copy everything by hand, there should be a smarter way. This is really frustrating.",feature_request,indirect
+"Hey, My payment failed but the money was still taken from my card. I have been a customer for 7 years. Appreciate the quick help.",billing,direct
+"I cannot log in, it says my credentials are invalid. Let me know what I can do.",account_access,direct
+Sync between my phone and laptop is not working. This is really frustrating.,technical_issue,direct
+"Good morning, It has been over two weeks and there is still nothing on my doorstep. I have been a customer for 8 years. Let me know what I can do.",shipping,indirect
+I changed my mind and would like to return my order within the return window. I am using the Android version.,refund_return,direct
+Sync between my phone and laptop is not working. I am using the iOS version. Please help.,technical_issue,direct
+"Hello team, Right now I have to copy everything by hand, there should be a smaretr way.",feature_request,indirect
+"Hello team, How long will shipping take to my country?",shipping,direct
+"Someone else may have accessed my account, I need to secure it. This is the second time I am writnig about this.",account_access,direct
+The estimated arrival date came and went and I have heard nothing. Thanks in advance!,shipping,indirect
+"Hello team, Can you support login with Apple in a future version? Reference: order #72178. Please help.",feature_request,direct
+"Good morning, My payment failed but the money was still taken from my card.",billing,direct
+"Someone else may have accessed my account, I need to secure it. Appreciate the quick help.",account_access,direct
+"Someone else may have accessed my account, I need to secure it. This is really frustrating.",account_access,direct
+I would like a refund for the desktop app. Thanks in advance!,refund_return,direct
+"Hello team, My old work email no longer exists, how do I move everything to my new address?",account_access,indirect
+"Good morning, Right now I have to copy everything by hand, there should be a smarter way. Appreciate the quick help.",feature_request,indirect
+I need a return label for the smart lamp. This is really frustrating.,refund_return,direct
+Part of my order is missing from the box that was delivered. I am using the iOS version. Please help.,shipping,direct
+Can you send me a copy of my invoice for last month? Thanks in advance!,billing,direct
+"Hello team, I cannot log in, it says my credentials are invalid. I have been a customer for 4 years. Thanks.",account_access,direct
+"To whom it may concern, Sync between my phone and laptop is not working. Appreciate the quick help.",technical_issue,direct
+sync between my phone and laptop is not working. this is the second time i am writing about this. please help.,technical_issue,direct
+I never receievd the verification email for my new account. Please help.,account_access,direct
+I want to delete my accuont and all my data. Reference: order #26004. Please help.,account_access,direct
+I lost my phone and cannot get the two-factor code. I have been a customer for 3 years. Please help.,account_access,direct
+"Good morning, Can you send me a copy of my invoice for last month? Tahnks in advance!",billing,direct
+It would be great if you added a dark mode. Reference: order #17869. Thanks in advance!,feature_request,direct
+"To whom it may concern, I want my money back, the Pro plan is not what I expected. Appreciate the quick help.",refund_return,direct
+"Hey, I cannot upload files, the progress bar gets stuck at 90 percent. Please help.",technical_issue,direct
+"Hi, Sync between my phone and laptop is not working. I have been a customer for 3 years. Thanks.",technical_issue,direct
+why did my subscription price go up? my bill is higher than usual.,billing,direct
+"Good morning, Please change the email address on my account. Let me know what I can do.",account_access,direct
+Can you support login with Apple in a future version? Thanks.,feature_request,direct
+My payment failed but the money was still taken from my card. This is the second time I am writing about this. Let me know what I can do.,billing,direct
+"To whom it may concern, I need to update the credit card on file for my billing. Thanks in advance!",billing,direct
+"I keep getting emails saying my card was declined, but it works everywhere else. This is the second time I am writing about this. Please help.",billing,indirect
+"Hi, Something looks off with the numbers on my monthly statement. Reference: order #40540. Let me know what I can do.",billing,indirect
+i would love to see a calendar integration. i am using the windows version. let me know what i can do.,feature_request,direct
+i forgot my password and the reset email never arrives. let me know what i can do.,account_access,direct
+"To whom it may concern, A negihbour said a delivery person left a card but I never saw a package. Thanks in advance!",shipping,indirect
+"To whom it may concern, Someone else may have accessed my account, I need to secure it. This is really frustrating.",account_access,direct
+"Hi, I was billed after I cancelled my subscription.",billing,direct
+Notifications stopped working after the latest update. This is the second time I am writing about this. Appreciate the quick help.,technical_issue,direct
+"hello team, my order shows as delivered but i never received it. let me know what i can do.",shipping,direct
+"hi, please consider adding support for more languages. please help.",feature_request,direct
+I changed my mind and would like to return my Starter account within the return window. This is the second time I am writing about this. Please help.,refund_return,direct
+"hi, i changed my mind and would like to return the dsektop app within the return window. please help.",refund_return,direct
+"To whom it may concern, The site keeps sending me back to the sign-in page in a loop. Thanks in advance!",account_access,indirect
+"Hi, It would be really helpful to have keyboard shortcuts. Let me know what I can do.",feature_request,direct
+"Hey, Have you thought about letting us customise the home screen? I have been a customer for 6 years. Thanks.",feature_request,indirect
+"Good morning, My payment failed but the money was still taken from my card. I have been a customer for 7 years. Let me know what I can do.",billing,direct
+"Hi, Part of my order is missing from the box that was delivered. This is the second time I am writing about this. Thanks in advance!",shipping,direct
+"good morning, my whole team would switch to you if there was a way to set custom reminders. thanks in advance!",feature_request,indirect
+"To whom it may concern, Why did my subscription price go up? My bill is higher than usual.",billing,direct
+"Hey, I cannot log in, it says my credentials are invalid. Please help.",account_access,direct
+"To whom it may concern, It would be raelly helpful to have keyboard shortcuts.",feature_request,direct
+"Hello team, It worked fine yesterday but today it just shows a blank white page. This is really frustrating.",technical_issue,indirect
+"It broke after two days, I do not want a replacement, I just want to be paid back. This is really frustrating.",refund_return,indirect
+"Good morning, Can I get a refund for the unused months of my plan?",refund_return,direct
+A neighbour said a delivery person left a card but I never saw a package. Please help.,shipping,indirect
+"Hey, Please consider adding support for more languages. I am using the Android version. Let me know what I can do.",feature_request,direct
+"Hello team, I cannot log in, it says my credentials are invalid. Appreciate the quick help.",account_access,direct
+"Hello team, Any plans to add multiple user profiles on one account? Reference: order #75596. Appreciate the quick help.",feature_request,direct
+"Good morning, My account is locked after too many login attempts. I am using the iOS version. Appreciate the quick help.",account_access,direct
+"Hey, Please change the email address on my account.",account_access,direct
+"to whom it may concern, i need to update the credit card on file for my billing. thanks.",billing,direct
+"Ever since the update, nothing responds when I tap the buttons. Let me know what I can do.",technical_issue,indirect
+"Hi, I changed my mind and would like to return the smart lamp within the return window. Thanks.",refund_return,direct
+A neighbour said a delivery person left a card but I never saw a package. Appreciate the quick help.,shipping,indirect

@@ -1,0 +1,301 @@
+text,label,wording,predicted,correct,latency_ms
+Any plans to add multiple user profiles on one account? Reference: order #26607. Please help.,feature_request,direct,feature_request,True,1.6
+"Hello team, The device gets really hot and turns itself off after a few minutes. Appreciate the quick help.",technical_issue,indirect,technical_issue,True,10.06
+"To whom it may concern, I got a message saying there was a login from another country and it was not me. This is really frustrating.",account_access,indirect,account_access,True,1.36
+Any plans to add multiple user profiles on one account? I am using the web version.,feature_request,direct,feature_request,True,0.86
+"looking at my credit card activity, your company has taken more than i agreed to pay. reference: order #60056. thanks in advance!",billing,novel,billing,True,4.99
+"I ordered this as a birthday present and the party is tomorrow, but nothing has turned up at my place. Thanks in advance!",shipping,novel,shipping,True,0.9
+My teammate left the company and I need to take over the account she set up. I have been a customer for 1 years.,account_access,novel,account_access,True,0.89
+"Hey, Please process a return for my order. Reference: order #31459. Thanks.",refund_return,direct,refund_return,True,0.78
+"Hey, Please take this back, it does not do what the description promised. Reference: order #74536.",refund_return,indirect,refund_return,True,9.29
+My account is locked after too many login attempts.,account_access,direct,account_access,True,1.11
+"Hey, I have tried every password I can think of and sitll cannot get in. I have been a customer for 1 years. Let me know what I can do.",account_access,indirect,account_access,True,0.94
+"Hey, Accounting needs a proper receipt for what we paid you, and the one I got shows the wrong amount. I have been a customer for 1 years. Let me know what I can do.",billing,novel,billing,True,0.93
+"Hey, Every time I try to export the report, the whole thing shuts down. This is the second time I am writing about this. Thanks in advance!",technical_issue,indirect,technical_issue,True,9.2
+"To whom it may concern, I have tried every password I can think of and still cannot get in. Please help.",account_access,indirect,account_access,True,2.01
+"To whom it may concern, After I installed the new version, the audio cuts out halfway through every video. This is the second time I am writing about this. Thanks in advance!",technical_issue,novel,technical_issue,True,10.45
+"Hey, The total I paid last week is way more than the price listed on your website. This is really frustrating.",billing,indirect,billing,True,0.95
+"Good morning, Looking at my credit card activity, your company has taken more than I agreed to pay.",billing,novel,billing,True,0.89
+"Ever since the update, nothing responds when I tap the buttons.",technical_issue,indirect,technical_issue,True,0.81
+"Looking at my credit card activity, your company has taken more than I agreed to pay. This is the second time I am writing about this. Thanks.",billing,novel,billing,True,6.0
+"Hey, Your carrier's site says 'in transit' and has said that since the first of the month. Thanks in advance!",shipping,novel,shipping,True,4.32
+"Hello team, Please process a return for my order. Thanks.",refund_return,direct,refund_return,True,0.91
+"hello team, i would love to see a calendar integration. thanks.",feature_request,direct,feature_request,True,0.83
+"Hello team, A competitor's tool lets you schedule reports in advance, and it would be amazing to see that here. Thanks in advance!",feature_request,novel,feature_request,True,0.86
+"I keep exporting to a spreadsheet just to sort things, and sorting inside the app would be so much easier. Reference: order #72136. Thanks in advance!",feature_request,novel,technical_issue,False,2.32
+"Hello team, I would like a refund for the Aero blender. Reference: order #85941. Thanks in advance!",refund_return,direct,refund_return,True,0.73
+"To whom it may concern, How long will shipping take to my country? Please help.",shipping,direct,shipping,True,0.66
+"Good morning, The app crashes every time I open it.",technical_issue,direct,technical_issue,True,0.74
+my Starter account will not connect to wifi anymore. Appreciate the quick help.,technical_issue,direct,technical_issue,True,0.67
+i was billed after i cancelled my subscription. i am using the ios version. let me know what i can do.,billing,direct,billing,True,0.56
+"It broke after two days, I do not want a replacement, I just want to be paid back. I have been a customer for 6 years. Appreciate the quick help.",refund_return,indirect,refund_return,True,0.57
+"Hello team, The app crashes every time I open it. Reference: order #72409. Please help.",technical_issue,direct,technical_issue,True,0.61
+My order shows as delivered but I never received it. I am using the Android version.,shipping,direct,shipping,True,0.47
+"Good morning, The site keeps sending me back to the sign-in page in a loop. Reference: order #35293. Let me know what I can do.",account_access,indirect,account_access,True,0.75
+"Hello team, I keep getting error code 500 when I try to save my work. Let me know what I can do.",technical_issue,direct,technical_issue,True,0.51
+I was charged twice for my subscription this month.,billing,direct,billing,True,0.45
+"To whom it may concern, I keep exporting to a spreadsheet just to sort things, and sorting inside the app would be so much easier. Reference: order #45242. Appreciate the quick help.",feature_request,novel,technical_issue,False,0.81
+"Hey, It would be great if you added a dark mode. Thanks in advance!",feature_request,direct,feature_request,True,0.6
+"Hello team, Please consider adding support for more languages. This is the second time I am writing about this. This is really frustrating.",feature_request,direct,feature_request,True,0.56
+"To whom it may concern, I was billed after I cancelled my subscription. Let me know what I can do.",billing,direct,billing,True,0.58
+"Hey, Please add an option to export my data to CSV.",feature_request,direct,feature_request,True,0.51
+"Hey, The quality is far below what was advertised, so I am giving it back and expect my funds returned. I have been a customer for 4 years. This is really frustrating.",refund_return,novel,refund_return,True,0.53
+"To whom it may concern, Please take this back, it does not do what the description promised. Appreciate the quick help.",refund_return,indirect,refund_return,True,0.58
+"good morning, part of my order is missing from the box that was delivered.",shipping,direct,shipping,True,0.55
+the total i paid last week is way more than the price listed on your website.,billing,indirect,billing,True,0.48
+Any plans to add multiple user profiles on one account? Thanks.,feature_request,direct,feature_request,True,0.53
+"hey, your carrier's site says 'in transit' and has said that since the first of the month. i have been a customer for 7 years. let me know what i can do.",shipping,novel,account_access,False,0.48
+"To whom it may concern, My bank statement shows two identical transactions from you this month. Thanks in advance!",billing,indirect,billing,True,0.62
+"Hi, My order shows as delivered but I never received it.",shipping,direct,shipping,True,0.46
+"Hi, Someone else may have accessed my account, I need to secure it. Please help.",account_access,direct,account_access,True,0.65
+My order shows as delivered but I never received it. Please help.,shipping,direct,shipping,True,0.52
+"Hello team, Part of my order is missing from the box that was delivered.",shipping,direct,shipping,True,0.5
+"To whom it may concern, I changed my mind and would like to return my subscription within the return window. Thanks in advance!",refund_return,direct,refund_return,True,0.52
+I got a message saying there was a login from another country and it was not me. I have been a customer for 1 years. Thanks.,account_access,indirect,account_access,True,0.53
+"Good morning, I forgot my password and the reset email never arrives. This is really frustrating.",account_access,direct,account_access,True,0.55
+"Hey, After I installed the new version, the audio cuts out halfway through every video.",technical_issue,novel,technical_issue,True,0.47
+The device gets really hot and turns itself off after a few minutes. Thanks.,technical_issue,indirect,technical_issue,True,0.51
+"To whom it may concern, A competitor's tool lets you schedule reports in advance, and it would be amazing to see that here. I have been a customer for 2 years. This is really frustrating.",feature_request,novel,feature_request,True,0.54
+"Hello team, After I installed the new version, the audio cuts out halfway through every video. Thanks in advance!",technical_issue,novel,technical_issue,True,0.53
+"Hey, I would love to see a calendar integration.",feature_request,direct,feature_request,True,0.46
+"To whom it may concern, How do I return my Nova headphones? It does not fit. I am using the Windows version. This is really frustrating.",refund_return,direct,refund_return,True,0.55
+"Hi, Sync between my phnoe and laptop is not working. I have been a customer for 3 years.",technical_issue,direct,technical_issue,True,0.48
+"To whom it may concern, After I installed the new version, the audio cuts out halfway through every video. Please help.",technical_issue,novel,technical_issue,True,0.52
+"Hello team, I need a return label for my subscription. I am using the iOS version.",refund_return,direct,refund_return,True,0.43
+"hey, my account is locked after too many login attempts. i am using the web version.",account_access,direct,account_access,True,0.48
+"Hey, My order shows as delivered but I never received it. Please help.",shipping,direct,shipping,True,0.42
+"Hey, The quality is far below what was advertised, so I am giving it back and expect my funds returned. Thanks in advance!",refund_return,novel,refund_return,True,0.51
+"Hey, Tracking says my parcel is stuck at the local depot. Reference: order #31234. Thanks in advance!",shipping,direct,shipping,True,0.46
+"Hey, It would be great if you added a dark mode. I have been a customer for 1 years.",feature_request,direct,feature_request,True,0.42
+"To whom it may concern, The delivery address on my order is wrong, can you change it? Reference: order #45751. Thanks.",shipping,direct,shipping,True,0.46
+"To whom it may concern, The delivery address on my order is wrong, can you change it? I have been a customer for 1 years. Thanks in advance!",shipping,direct,shipping,True,0.45
+"Hi, I keep getting error code 500 when I try to save my work. I am using the iOS version. This is really frustrating.",technical_issue,direct,technical_issue,True,0.52
+"Hlelo team, I have tried every password I can think of and still cannot get in.",account_access,indirect,account_access,True,0.45
+"To whom it may concern, Please consider adding support for more languages. Let me know what I can do.",feature_request,direct,feature_request,True,0.43
+"Good morning, Please add an option to export my data to CSV. This is the second time I am writing about this. Appreciate the quick help.",feature_request,direct,feature_request,True,0.54
+"Looking at my credit card activity, your company has taken more than I agreed to pay.",billing,novel,billing,True,0.45
+"To whom it may concern, We ended up not needing my Nova headphones, so how can we ship it back and recover the payment? This is really frustrating.",refund_return,novel,refund_return,True,0.5
+"hey, a competitor's tool lets you schedule reports in advance, and it would be amazing to see that here. let me know what i can do.",feature_request,novel,feature_request,True,0.44
+"Good morning, My colleagues can open the dashboard but on my computer it spins forever and never loads. Thanks.",technical_issue,novel,shipping,False,0.49
+"To whom it may concern, The dveice gets really hot and turns itself off after a few minutes. Please help.",technical_issue,indirect,technical_issue,True,0.46
+"Hello team, I ordered this as a birthday present and the party is tomorrow, but nothing has turned up at my place. Thanks in advance!",shipping,novel,shipping,True,0.46
+"To whom it may concern, Please consider adding support for more languages. Appreciate the quick help.",feature_request,direct,feature_request,True,0.42
+"Good morning, Your carrier's site says 'in transit' and has said that since the first of the month. Reference: order #56976.",shipping,novel,shipping,True,0.59
+"Good morning, Accounting needs a proper reciept for what we paid you, and the one I got shows the wrong amount.",billing,novel,billing,True,0.44
+"Hey, We ended up not needing my subscription, so how can we ship it back and recover the payment? Thakns in advance!",refund_return,novel,refund_return,True,0.48
+How do I return the desktop app? It does not fit. Thanks.,refund_return,direct,refund_return,True,0.41
+"hey, something looks off with the numbers on my monthly statement. thanks.",billing,indirect,billing,True,0.4
+"Good morning, I need a return label for my Starter account. Thanks in advance!",refund_return,direct,refund_return,True,0.44
+"accounting needs a proper receipt for what we paid you, and the one i got shows the wrong amount.",billing,novel,billing,True,0.48
+"To whom it may concern, Please change the email address on my account. Reference: order #54802. Thanks in advance!",account_access,direct,account_access,True,0.42
+please add an option to export my data to csv. this is the second time i am writing about this. this is really frustrating.,feature_request,direct,feature_request,True,0.44
+"To whom it may concern, Part of my order is missing from the box that was delivered. Let me know what I can do.",shipping,direct,shipping,True,0.44
+"Hey, The courier keeps missing me, can I reschedule the delivery? I have been a customer for 2 years. Let me know what I can do.",shipping,direct,shipping,True,0.47
+The page loads very slowly and sometimes freezes. I have been a customer for 2 years. Appreciate the quick help.,technical_issue,direct,technical_issue,True,0.44
+"Good morning, I never received the verification email for my new account. Appreciate the quick help.",account_access,direct,account_access,True,0.44
+"Hello team, My old work email no longer exists, how do I move everything to my new address? This is the secnod time I am writing about this.",account_access,indirect,account_access,True,0.48
+"Hey, It worked fine yesterday but today it just shows a blank white page. Thanks in advance!",technical_issue,indirect,technical_issue,True,0.48
+Can I get a refund for the unused months of my plan? Please help.,refund_return,direct,refund_return,True,0.45
+"Hello team, Tracking says my parcel is stuck at the local depot. Reference: order #25454.",shipping,direct,shipping,True,0.46
+"Good morning, Notifications stopped working after the latest update. Reference: odrer #56669.",technical_issue,direct,technical_issue,True,0.41
+"To whom it may concern, A competitor's tool lets you schedule reports in advance, and it would be amazing to see that here. I am using the Windows version. This is really frustrating.",feature_request,novel,feature_request,True,0.48
+"To whom it may concern, I have tried every password I can think of and still cannot get in. Thanks.",account_access,indirect,account_access,True,0.44
+"Hello team, I need to update the credit card on file for my billing. Please help.",billing,direct,billing,True,0.43
+"to whom it may concern, the quality is far below what was advertised, so i am giving it back and expect my funds returned. please help.",refund_return,novel,refund_return,True,0.44
+"Hi, Please change the email address on my account. Appreciate the quick help.",account_access,direct,account_access,True,0.42
+"hi, i ordered this as a birthday present and the party is tomorrow, but nothing has turned up at my place. apprecaite the quick help.",shipping,novel,shipping,True,0.42
+Your carrier's site says 'in transit' and has said that since the first of the month. Reference: order #12848.,shipping,novel,shipping,True,0.53
+"To whom it may concern, The delivery address on my order is wrong, can you change it? This is the second time I am writing about this. Let me know what I can do.",shipping,direct,shipping,True,0.43
+"hello team, i changed phones and now the app asks for a code that goes to a number i do not have anymore. i have been a customer for 3 years. thanks in advance!",account_access,novel,technical_issue,False,0.45
+Can you send me a copy of my invoice for last month? This is really frustrating.,billing,direct,billing,True,0.42
+"To whom it may concern, I am travelling next week, will my parcel get here before I leave?",shipping,indirect,shipping,True,0.4
+"hi, i need to update the credit card on file for my billing. this is really frustrating.",billing,direct,billing,True,0.73
+"to whom it may concern, i lost my phone and cannot get the two-factor code. this is the second time i am writing about this. please help.",account_access,direct,account_access,True,0.5
+How do I return the smart lamp? It does not fit. Thanks.,refund_return,direct,refund_return,True,0.42
+I changed phones and now the app asks for a code that goes to a number I do not have anymore. I am using the web version. Let me know what I can do.,account_access,novel,technical_issue,False,0.48
+"We ended up not needing my order, so how can we ship it back and recover the payment? Thanks.",refund_return,novel,refund_return,True,0.42
+"Hey, I was charged twice for the mobile app this month. Thanks in advance!",billing,direct,billing,True,0.4
+"Good morning, The total I paid last week is way more than the price listed on your website. This is really frustrating.",billing,indirect,billing,True,0.45
+"Hi, Someone else may have accessed my account, I need to secure it. I am using the Windows version. Let me know what I can do.",account_access,direct,account_access,True,0.42
+"Good morning, A neighbour said a deilvery person left a card but I never saw a package. Thanks.",shipping,indirect,shipping,True,0.52
+"Hi, A competitor's tool lets you schedule reports in advance, and it would be amazing to see that here. This is the second time I am writing about this. Let me know what I can do.",feature_request,novel,feature_request,True,0.46
+"to whom it may concern, how long will shipping take to my country? pelase help.",shipping,direct,shipping,True,0.44
+"After I intsalled the new version, the audio cuts out halfway through every video.",technical_issue,novel,technical_issue,True,0.4
+"I keep exporting to a spreadsheet just to sort things, and sorting inside the app would be so much easier. Appreciate the quick help.",feature_request,novel,technical_issue,False,0.44
+"hi, i never received the verifciation email for my new account. please help.",account_access,direct,account_access,True,0.47
+"Good morning, I changed my mind and would like to return my Nova headphones within the return window. Let me know what I can do.",refund_return,direct,refund_return,True,0.44
+"Hello team, My bank statement shows two identical transactions from you this month.",billing,indirect,billing,True,0.41
+"Good morning, This is not what I expected, I would like to send it back and get my money returned. Appreciate the quick help.",refund_return,indirect,refund_return,True,0.42
+"Hello team, This is not what I expected, I would like to send it back and get my money returned. This is the second time I am writing about this. Please help.",refund_return,indirect,refund_return,True,0.43
+"Accounting needs a proper receipt for what we paid you, and the one I got shows the wrong amount. Thanks.",billing,novel,billing,True,0.45
+"Hello team, The site keeps sending me back to the sign-in page in a loop. This is really frustrating.",account_access,indirect,account_access,True,0.43
+"Hey, A competitor's tool lets you schedule reports in advance, and it would be amazing to see that here. Please help.",feature_request,novel,feature_request,True,0.42
+"To whom it may concern, Notifications stopped working after the latest update. Reference: order #86039. This is really frustrating.",technical_issue,direct,technical_issue,True,0.42
+"Good morning, It has been over two weeks and there is still nothing on my doorstep. Let me know what I can do.",shipping,indirect,shipping,True,0.45
+My payment failed but the money was stlil taken from my card. Appreciate the quick help.,billing,direct,billing,True,0.44
+"After I installed the new version, the audio cuts out halfway through every video. I am using the Windows version. Please help.",technical_issue,novel,technical_issue,True,0.42
+"Good morning, My colleagues can open the dashboard but on my computer it spins forever and never loads. This is the second time I am writing about this. This is really frustrating.",technical_issue,novel,shipping,False,0.42
+"Good morning, The app crashes every time I open it. I have been a customer for 6 years.",technical_issue,direct,technical_issue,True,0.43
+"Hey, Any plans to add multiple user porfiles on one account? I have been a customer for 6 years. Thanks.",feature_request,direct,feature_request,True,0.42
+"To whom it may concern, There is an incorrect charge on my latest invoice. Let me know what I can do.",billing,direct,billing,True,0.42
+The estimated arrival date came and went and I have heard nothing. I have been a customer for 4 years. Thanks in advance!,shipping,indirect,shipping,True,0.41
+"Hey, I wolud love to see a calendar integration. This is really frustrating.",feature_request,direct,feature_request,True,0.38
+"Hi, It broke after two days, I do not want a replacement, I just want to be paid back. This is really frustrating.",refund_return,indirect,refund_return,True,0.44
+"To whom it may concern, Please change the email address on my account.",account_access,direct,account_access,True,0.42
+My order shows as delivered but I never received it. I am using the iOS version. This is really frustrating.,shipping,direct,shipping,True,0.43
+"Good morning, The app crashes every time I open it. This is the second time I am writing about this. This is really frustrating.",technical_issue,direct,technical_issue,True,0.4
+"Good morning, I need a return label for the desktop app. Let me know what I can do.",refund_return,direct,refund_return,True,0.4
+The screen goes black right after the logo appears. Reference: order #25753.,technical_issue,direct,technical_issue,True,0.41
+Part of my oredr is missing from the box that was delivered.,shipping,direct,shipping,True,0.41
+"Hi, I was billed after I cancelled my subscription. Please help.",billing,direct,billing,True,0.37
+"Hey, I was charged twice for the desktop app this month. I am using the Android version. Appreciate the quick help.",billing,direct,billing,True,0.39
+"Hello team, The courier keeps missing me, can I reschedule the delivery? Thanks.",shipping,direct,shipping,True,0.45
+"Good morning, Please add an option to export my data to CSV.",feature_request,direct,feature_request,True,0.44
+"Good morning, How do I return the mobile app? It does not fit. Let me know what I can do.",refund_return,direct,refund_return,True,0.39
+"To whom it may concern, My old work email no longer exists, how do I move everything to my new address? I have been a customer for 8 years.",account_access,indirect,account_access,True,0.39
+"Hello team, Please take this back, it does not do what the description promised. I have been a customer for 4 years. Thanks.",refund_return,indirect,refund_return,True,0.39
+"Hey, The courier keeps missing me, can I reschedule the delivery? Reference: order #81293. Thanks.",shipping,direct,shipping,True,0.4
+"I do not want this anymore, what are my options to be reimbursed?",refund_return,indirect,refund_return,True,0.47
+"Good morning, I keep getting erorr code 500 when I try to save my work.",technical_issue,direct,technical_issue,True,0.42
+"Hi, It would be really helpful to have keyboard shortcuts. Please help.",feature_request,direct,feature_request,True,0.41
+"Hey, I changed phones and now the app asks for a code that goes to a number I do not have anymore. Reference: order #50376. Please help.",account_access,novel,technical_issue,False,0.4
+"Hello team, A competitor's tool lets you schedule reports in advance, and it would be amazing to see that here. Reference: order #50906. Appreciate the quick help.",feature_request,novel,feature_request,True,0.42
+"Hi, Your carrier's site says 'in transit' and has said that since the first of the month. This is the second time I am writing about this.",shipping,novel,shipping,True,0.44
+"to whom it may concern, i would love to see a calendar integration. please help.",feature_request,direct,feature_request,True,0.4
+"To whom it may concern, This is not what I expected, I would like to send it back and get my money returned. Appreciate the quick help.",refund_return,indirect,refund_return,True,0.45
+"Hello team, I would like a refund for the smart lamp.",refund_return,direct,refund_return,True,0.4
+Please add an option to export my data to CSV. Thanks.,feature_request,direct,feature_request,True,0.37
+"Hi, I changed phones and now the app asks for a code that goes to a number I do not have anymore. This is the second time I am writing about this. Appreciate the quick help.",account_access,novel,technical_issue,False,0.49
+"Accounting needs a proper receipt for what we paid you, and the one I got shows the wrong amount. Appreciate the quick help.",billing,novel,refund_return,False,0.4
+I got a message saying there was a login from another country and it was not me. I am using the web version. Please help.,account_access,indirect,account_access,True,0.4
+"Hey, Any plans to add multiple user profiles on one account? Appreciate the quick help.",feature_request,direct,feature_request,True,0.37
+"Good morning, I do not want this anymore, what are my opitons to be reimbursed?",refund_return,indirect,refund_return,True,0.46
+"Hello team, I was charged twice for the mobile app this month. Please help.",billing,direct,billing,True,0.39
+"Hlelo team, The screen goes black right after the logo appears. Let me know what I can do.",technical_issue,direct,technical_issue,True,0.38
+"To whom it may concern, Can you send me a copy of my invoice for last month?",billing,direct,billing,True,0.39
+"To whom it may concern, After I installed the new version, the audio cuts out halfway through every video. This is really frustrating.",technical_issue,novel,technical_issue,True,0.37
+"Hi, My teammate left the company and I need to take over the account she set up. I have been a customer for 2 years. Let me know what I can do.",account_access,novel,account_access,True,0.42
+"I keep getting emails saying my card was declined, but it works everywhere else. I am using the Windows version. Appreciate the quick help.",billing,indirect,billing,True,0.44
+"hey, the courier keeps missing me, can i reschedule the delivery? i have been a customer for 2 years.",shipping,direct,shipping,True,0.38
+"I keep exporting to a spreadsheet just to sort things, and sorting inside the app would be so much easier. Thanks in advance!",feature_request,novel,technical_issue,False,0.38
+"Hi, I am travelling next week, will my parcel get here beofre I leave?",shipping,indirect,shipping,True,0.4
+"Hey, Please take this back, it does not do what the desrciption promised. Thanks in advance!",refund_return,indirect,refund_return,True,0.49
+"Hey, I changed my mind and would like to return my subscription within the return window. Thanks in advance!",refund_return,direct,refund_return,True,0.39
+my teammate left the company and i need to take over the account she set up. please help.,account_access,novel,account_access,True,0.37
+"Good morning, My order shows as delivered but I never received it. Please help.",shipping,direct,shipping,True,0.4
+"Hey, Sync between my phone and laptop is not working. Please help.",technical_issue,direct,technical_issue,True,0.4
+i never received the verification email for my new account.,account_access,direct,account_access,True,0.4
+I need a return label for the Aero blender. Let me know what I can do.,refund_return,direct,refund_return,True,0.38
+"Hello team, My whole team would switch to you if there was a way to set custom reminders. I have been a customer for 6 years. Please help.",feature_request,indirect,feature_request,True,0.38
+"Hello team, My colleagues can open the dashborad but on my computer it spins forever and never loads.",technical_issue,novel,shipping,False,0.39
+"We ended up not needing my subscription, so how can we ship it back and recover the payment?",refund_return,novel,refund_return,True,0.46
+"To whom it may concern, Please take this back, it does not do what the description promised. I am using the Windows version. Thanks in advance!",refund_return,indirect,refund_return,True,0.44
+"good morning, every time i try to export the report, the whole thing shuts down.",technical_issue,indirect,technical_issue,True,0.38
+"We ended up not needing the smart lamp, so how can we ship it back and recover the payment? Thanks in advance!",refund_return,novel,refund_return,True,0.37
+"Hi, How long will shipping take to my country? Thanks in advance!",shipping,direct,shipping,True,0.37
+"Hi, The app crashes every time I open it. I am using the Android version. Thanks.",technical_issue,direct,technical_issue,True,0.41
+"Hi, A competitor's tool lets you schedule reports in advance, and it would be amazing to see that here.",feature_request,novel,feature_request,True,0.41
+"Good morning, Please take this back, it does not do what the description promised. This is relaly frustrating.",refund_return,indirect,refund_return,True,0.44
+"Hello team, It would be really helpful to have keyboard shortcuts. Reference: order #97672. Thanks.",feature_request,direct,feature_request,True,0.41
+I changed phones and now the app asks for a code that goes to a number I do not have anymore. I am using the iOS version. Thanks in advance!,account_access,novel,technical_issue,False,0.4
+I got a message saying there was a login from anotehr country and it was not me. Please help.,account_access,indirect,account_access,True,0.4
+"Hi, How long will shipping take to my country? Let me know what I can do.",shipping,direct,shipping,True,0.4
+"hey, after i installed the new version, the auido cuts out halfway through every video. reference: order #52003. thanks in advance!",technical_issue,novel,technical_issue,True,0.42
+"To whom it may concern, I keep getting error code 500 when I try to save my work. I am using the web version. Thanks in advance!",technical_issue,direct,technical_issue,True,0.41
+Part of my order is missing from the box that was delivered. Let me know what I can do.,shipping,direct,shipping,True,0.38
+"Hi, I cannot log in, it says my credentials are invalid. This is the second time I am writing about this.",account_access,direct,account_access,True,0.36
+"Hi, I want my money back, my Nova headphones is not what I expected. This is the second time I am writing about this.",refund_return,direct,refund_return,True,0.46
+"after i installed the new version, the audio cuts out halfway through every video. thanks in advance!",technical_issue,novel,technical_issue,True,0.38
+"Hey, It broke after two days, I do not want a replacement, I just want to be paid back.",refund_return,indirect,refund_return,True,0.37
+"hey, the amount on my invoice does not match the plan i signed up for. this is the second time i am writing about this. please help.",billing,direct,billing,True,0.37
+"Good morning, I need to update the credit card on file for my billing. Thanks.",billing,direct,billing,True,0.39
+"Right now I have to copy everything by hand, there should be a smarter way. Thanks in advance!",feature_request,indirect,feature_request,True,0.44
+"Hlelo team, I wish the dashboard let me compare two months side by side. I have been a customer for 1 years. Thanks.",feature_request,indirect,feature_request,True,0.38
+My teammate left the company and I need to take over the account she set up. I am using the web version. Please help.,account_access,novel,account_access,True,0.38
+"To whom it may concern, The total I paid last week is way more than the price listed on your website. This is really frustrating.",billing,indirect,billing,True,0.37
+"Good morning, Can I get a refund for the unused months of my plan? I am using the Android version. This is really frustrating.",refund_return,direct,refund_return,True,0.36
+"Hey, Can I get a refund for the unused months of my plan? I have been a customer for 1 years. Thanks in advance!",refund_return,direct,refund_return,True,0.43
+"To whom it may concern, It would be great if you added a dark mode. Thanks in advance!",feature_request,direct,feature_request,True,0.39
+"Every time I try to export the report, the whole thing shuts down. This is really frustrating.",technical_issue,indirect,technical_issue,True,0.38
+"To whom it may concern, Tracking says my parcel is stuck at the local depot. I have been a customer for 5 years. Thanks.",shipping,direct,shipping,True,0.37
+"To whom it may concern, I need to update the creidt card on file for my billing. Appreciate the quick help.",billing,direct,billing,True,0.36
+"Good morning, My teammate left the company and I need to take over the account she set up. Let me know what I can do.",account_access,novel,account_access,True,0.49
+My colleagues can open the dashboard but on my computer it spins forever and never loads. Thanks.,technical_issue,novel,shipping,False,0.38
+"Hey, We ended up not needing the Aero blender, so how can we ship it back and recover the payment? I have been a customer for 4 years. Let me know what I can do.",refund_return,novel,refund_return,True,0.39
+"Hey, I was billed after I cancelled my subscription. Let me know what I can do.",billing,direct,billing,True,0.4
+"Good morning, Sync between my phone and laptop is not working. Please help.",technical_issue,direct,technical_issue,True,0.38
+"Hey, The page loads very slowly and sometiems freezes. Please help.",technical_issue,direct,technical_issue,True,0.36
+"Hey, Tracking says my parcel is stuck at the local depot. Thanks.",shipping,direct,shipping,True,0.42
+"Hey, I keep exporting to a spreadsheet just to sort things, and sorting inside the app would be so much easier. Pelase help.",feature_request,novel,technical_issue,False,0.39
+"Hello team, My old work email no longer exists, how do I move everything to my new address? I am using the iOS version.",account_access,indirect,account_access,True,0.37
+"Accounting needs a proper receipt for what we paid you, and the one I got shows the wrong amount.",billing,novel,billing,True,0.38
+The total I paid last week is way more than the price listed on your website. Reference: order #87861. Thanks.,billing,indirect,billing,True,0.42
+"Hello team, The quality is far below what was advertised, so I am giving it back and expect my funds returned. I have been a customer for 5 years. Thanks in advance!",refund_return,novel,refund_return,True,0.44
+"Hey, Right now I have to copy everything by hand, there should be a smarter way. Thanks.",feature_request,indirect,feature_request,True,0.39
+"To whom it may concern, Please add an option to export my data to CSV. This is really frustrating.",feature_request,direct,feature_request,True,0.37
+"After I installed the new version, the audio cuts out halfway through every video. Thanks.",technical_issue,novel,technical_issue,True,0.36
+"Good morning, I want to delete my account and all my data. I am using the web version.",account_access,direct,account_access,True,0.41
+The estimated arrival date came and went and I have heard nothing. I am using the web version. Let me know what I can do.,shipping,indirect,shipping,True,0.42
+"Good morning, My collaegues can open the dashboard but on my computer it spins forever and never loads. Appreciate the quick help.",technical_issue,novel,billing,False,0.42
+"To whom it may concern, Please change the email address on my account. Let me know what I can do.",account_access,direct,account_access,True,0.38
+"Hey, I wish the dashboard let me compare two months side by side. I am using the iOS version. Please help.",feature_request,indirect,feature_request,True,0.36
+"Good morning, I forgot my password and the reset email never arrives. Reference: order #38063.",account_access,direct,account_access,True,0.44
+"Hi, I wish the dashboard let me compare two months side by side. This is the second time I am writing about this. Appreciate the quick help.",feature_request,indirect,feature_request,True,0.44
+"Good morning, I wish the dashboard let me compare two months side by side. Let me know what I can do.",feature_request,indirect,feature_request,True,0.38
+"Hi, I keep exporting to a spreadsheet just to sort things, and sorting inside the app would be so much easier. Plesae help.",feature_request,novel,technical_issue,False,0.37
+"Good morning, I want my money back, my Starter account is not what I expected.",refund_return,direct,refund_return,True,0.36
+"Hello team, I have tried every password I can think of and still cannot get in. Thanks.",account_access,indirect,account_access,True,0.42
+"I keep getting emails saying my card was declined, but it works everywhere else. I have been a customer for 2 years. This is really frustrating.",billing,indirect,billing,True,0.4
+"Hey, Can you support login with Apple in a future version? Reference: order #73570. Please help.",feature_request,direct,feature_request,True,0.38
+"Hello team, Please add an option to export my data to CSV. Appreciate the quick help.",feature_request,direct,feature_request,True,0.36
+"Hello team, My whole team wolud switch to you if there was a way to set custom reminders. This is really frustrating.",feature_request,indirect,feature_request,True,0.35
+"Hey, I would like a refund for the Aero blender. I am using the Android version.",refund_return,direct,refund_return,True,0.43
+"To whom it may concern, My account is locked after too many login attempts. Reference: order #83216. This is really frustrating.",account_access,direct,account_access,True,0.41
+"Hi, Your carrier's site says 'in transit' and has said that since the first of the month. Please help.",shipping,novel,shipping,True,0.38
+"Hello team, I am travelling next week, will my parcel get here before I leave? Thanks.",shipping,indirect,shipping,True,0.38
+"Hello team, Why did my subscription price go up? My bill is higher than usual. I have been a customer for 8 years. Thanks.",billing,direct,billing,True,0.4
+"Hey, I have tried every password I can think of and still cannot get in. This is really frustrating.",account_access,indirect,account_access,True,0.42
+Your carrier's site says 'in transit' and has said that since the first of the month. Thanks in advance!,shipping,novel,shipping,True,0.39
+"to whom it may concern, i cannot upload files, the progress bar gets stuck at 90 percent. this is the second time i am writing about this. this is really frustrating.",technical_issue,direct,technical_issue,True,0.4
+"to whom it may concern, i need a return label for the pro plan. appreicate the quick help.",refund_return,direct,refund_return,True,0.38
+"Hello team, Your carrier's site says 'in transit' and has said that since the first of the month. This is really frustrating.",shipping,novel,shipping,True,0.36
+"hey, accounting needs a proper receipt for what we paid you, and the one i got shows the wrong amount. please help.",billing,novel,feature_request,False,0.39
+"good morning, it worked fine yesterday but today it just shows a blank white page.",technical_issue,indirect,technical_issue,True,0.37
+"Good morning, Something looks off with the numbers on my monthly statement. Thanks.",billing,indirect,billing,True,0.38
+it has been over two weeks and there is still nothing on my doorstep. please help.,shipping,indirect,shipping,True,0.36
+"hello team, this is not what i expected, i would like to send it back and get my money returned.",refund_return,indirect,refund_return,True,0.35
+"A competitor's tool lets you schedule reports in advance, and it would be amazing to see that here. Thanks in advance!",feature_request,novel,feature_request,True,0.39
+"Good morning, It broke after two days, I do not want a replacement, I just want to be paid back. Thanks in advance!",refund_return,indirect,refund_return,True,0.37
+"Hi, Something looks off with the numbers on my monthly statement.",billing,indirect,billing,True,0.39
+"Hi, My colleagues can open the dashboard but on my computer it spins forever and never loads. Thanks.",technical_issue,novel,shipping,False,0.35
+"Every time I try to export the report, the whole thing shuts down. Thanks in advance!",technical_issue,indirect,technical_issue,True,0.36
+"Hi, A competitor's tool lets you schedule reports in advance, and it would be amazing to see that here. This is the second time I am writing about this.",feature_request,novel,feature_request,True,0.39
+"After I installed the new version, the audio cuts out halfway through every video. Reference: order #95476.",technical_issue,novel,technical_issue,True,0.39
+"To whom it may concern, I forgot my password and the reset email neevr arrives. Thanks.",account_access,direct,account_access,True,0.38
+"Accounting needs a proper receipt for what we paid you, and the one I got shows the wrong amount. This is really frustrating.",billing,novel,account_access,False,0.36
+There is an incorrect charge on my latest invoice. Thanks.,billing,direct,billing,True,0.36
+"Good morning, My package has not arrived yet and it was supposed to be here days ago. Let me know what I can do.",shipping,direct,shipping,True,0.39
+It worked fine yesterday but today it just shows a blank white page. This is the second time I am writing about this. Thanks in advance!,technical_issue,indirect,technical_issue,True,0.37
+"Hello team, I was billed after I cancelled my subscription. I am using the web version. Appreciate the quick help.",billing,direct,billing,True,0.39
+"Hi, Your carrier's site says 'in transit' and has said that since the first of the month. Thanks.",shipping,novel,shipping,True,0.36
+"I do not want this anymore, what are my options to be reimbursed? Thanks.",refund_return,indirect,refund_return,True,0.44
+"Hey, Accounting needs a proper receipt for what we paid you, and the one I got shows the wrong amount.",billing,novel,billing,True,0.4
+"Hi, I never received the verification email for my new account. Please help.",account_access,direct,account_access,True,0.41
+"Good morning, It has been over two weeks and there is still nothing on my doorstep. This is the second time I am writing about this. Let me know what I can do.",shipping,indirect,shipping,True,0.41
+A neighbour said a delivery person left a card but I never saw a package. I have been a customer for 7 years. Appreciate the quick help.,shipping,indirect,shipping,True,0.41
+"Good morning, My bank statement shows two identical transactoins from you this month. Reference: order #70686. Let me know what I can do.",billing,indirect,billing,True,0.36
+My bank statement shows two identical transactions from you this month. Let me know what I can do.,billing,indirect,billing,True,0.35
+"Looking at my credit card activity, your comapny has taken more than I agreed to pay. This is really frustrating.",billing,novel,billing,True,0.37
+"Hi, Looking at my credit card activity, your company has taken more than I agreed to pay. I am using the iOS version. This is really frustrating.",billing,novel,billing,True,0.37
+"To whom it may concern, Someone else may have accessed my account, I need to secure it. I have been a customer for 4 years. Appreciate the quick help.",account_access,direct,account_access,True,0.39
+"Hey, My account is locked after too many login attempts. Please help.",account_access,direct,account_access,True,0.35
+"Good morning, I never received the verification email for my new account. Plaese help.",account_access,direct,account_access,True,0.36
+"Hi, I cannot log in, it says my credentials are invalid. Please help.",account_access,direct,account_access,True,0.39
+"Hello team, The device gets really hot and turns itself off after a few minutes. I have been a customer for 2 years. Appreciate the quick help.",technical_issue,indirect,technical_issue,True,0.38
+"Hey, Why did my subscription price go up? My bill is higher than usual. This is really frustrating.",billing,direct,billing,True,0.38
+Sync between my phone and laptop is not working. I have been a customer for 4 years. This is really frustrating.,technical_issue,direct,technical_issue,True,0.37
+"Please take this back, it does not do what the description promised. Please help.",refund_return,indirect,refund_return,True,0.36
+"to whom it may concern, please consider adding support for more languages. this is really frustrating.",feature_request,direct,feature_request,True,0.36
+"Good morning, Part of my order is missing from the box that was delivered. This is raelly frustrating.",shipping,direct,shipping,True,0.35
+"to whom it may concern, my account is locked after too many login attempts.",account_access,direct,account_access,True,0.34
+"Hey, I changed phones and now the app asks for a code that goes to a number I do not have anymore. This is the second time I am writing about this. Thanks in advance!",account_access,novel,technical_issue,False,0.42

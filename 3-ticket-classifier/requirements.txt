@@ -1,0 +1,8 @@
+# Everything needed to run the full project
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.5,<2.0
+matplotlib>=3.8
+torch>=2.2
+transformers>=4.40
+anthropic>=0.40

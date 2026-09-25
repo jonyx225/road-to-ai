@@ -1,0 +1,6 @@
+# Enough to generate data, run the baseline, and run the tests (no torch, no API key)
+numpy>=1.26
+pandas>=2.2
+scikit-learn>=1.5,<2.0
+matplotlib>=3.8
+pytest>=8.0
