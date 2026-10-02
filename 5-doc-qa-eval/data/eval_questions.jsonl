@@ -1,0 +1,26 @@
+{"question": "How many days do I have to return unused gear?", "answer_contains": "within 30 days of the delivery date", "tag": "keyword"}
+{"question": "How much does express shipping cost?", "answer_contains": "costs $14.95", "tag": "keyword"}
+{"question": "What does error E-4102 mean on my headlamp?", "answer_contains": "the battery temperature is too high", "tag": "keyword"}
+{"question": "How long is the warranty on tents?", "answer_contains": "Tents and backpacks: 5 years", "tag": "keyword"}
+{"question": "How much does the Trail Club cost per year?", "answer_contains": "$110 per year", "tag": "keyword"}
+{"question": "What is the minimum length of a password?", "answer_contains": "at least 12 characters", "tag": "keyword"}
+{"question": "What is the return shipping fee?", "answer_contains": "$6.95 return shipping fee", "tag": "keyword"}
+{"question": "How long can I pause my membership?", "answer_contains": "up to 3 months once per calendar year", "tag": "keyword"}
+{"question": "What is the free shipping threshold for Hawaii?", "answer_contains": "the free shipping threshold for them is $150", "tag": "keyword"}
+{"question": "How often should I wash my sleeping bag?", "answer_contains": "no more than once a year", "tag": "keyword"}
+{"question": "My lamp gets hot while plugged in and shows a fault. What should I do?", "answer_contains": "the battery temperature is too high", "tag": "paraphrase"}
+{"question": "Can I get my money back on a membership I forgot to cancel?", "answer_contains": "we will refund the annual fee in full", "tag": "paraphrase"}
+{"question": "I forgot my login details, how do I get back in?", "answer_contains": "the reset link is valid for 60 minutes", "tag": "paraphrase"}
+{"question": "Will I be charged extra duties when ordering to Canada?", "answer_contains": "responsible for import duties and taxes", "tag": "paraphrase"}
+{"question": "What happens if my card is declined for my subscription?", "answer_contains": "there is a 7-day grace period", "tag": "paraphrase"}
+{"question": "How can I keep my headlamp from turning on inside my backpack?", "answer_contains": "press and hold both buttons for 3 seconds", "tag": "paraphrase"}
+{"question": "How long until a refund lands on my credit card?", "answer_contains": "within 5 to 7 business days", "tag": "paraphrase"}
+{"question": "Do you fix broken zippers?", "answer_contains": "Zipper replacement costs a flat $25", "tag": "paraphrase"}
+{"question": "How do I stop my tent from getting mouldy in storage?", "answer_contains": "Dry the tent completely before storing it", "tag": "paraphrase"}
+{"question": "When will you erase my personal information?", "answer_contains": "Requests are completed within 30 days", "tag": "paraphrase"}
+{"question": "Is the NX-200 waterproof?", "answer_contains": "IPX6 water resistance rating", "tag": "paraphrase"}
+{"question": "When can I call the support line?", "answer_contains": "Monday to Friday, 8 a.m. to 6 p.m. Mountain Time", "tag": "paraphrase"}
+{"question": "Who is the CEO of Nimbus Outdoor Co.?", "answerable": false, "tag": "unanswerable"}
+{"question": "Do you sell kayaks?", "answerable": false, "tag": "unanswerable"}
+{"question": "What is the battery capacity of the NX-300 headlamp?", "answerable": false, "tag": "unanswerable"}
+{"question": "What was the score of last night's basketball game?", "answerable": false, "tag": "unanswerable"}

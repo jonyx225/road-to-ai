@@ -1,0 +1,28 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements-dev.txt
+      # Tests use tf-idf embeddings and a fake LLM: no PyTorch, no model downloads, no API key.
+      - name: Install dependencies
+        run: pip install -r requirements-dev.txt
+      - name: Run tests
+        run: pytest -v
+      - name: Build the offline index
+        run: python -m rag.ingest --embedder tfidf
+      # Deterministic (fake LLM + fake judge), so this only proves the eval harness itself still
+      # works and hasn't regressed. It is NOT a check of real answer quality — see evals/run.py.
+      - name: Run the eval suite and check for regressions
+        run: python -m evals.run --llm fake --judge fake --check-regression

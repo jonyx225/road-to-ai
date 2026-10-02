@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ask the docs</title>
+<style>
+  :root {
+    --bg: #fafaf8; --fg: #1b1b1a; --muted: #6b6b66; --card: #ffffff; --line: #e3e2dd;
+    --accent: #2f6f4e; --accent-fg: #ffffff; --warn: #9a5b00; --err: #b3261e; --cited: #e8f3ec;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #161615; --fg: #ecebe6; --muted: #a09f98; --card: #1f1f1d; --line: #33332f;
+      --accent: #6fbf94; --accent-fg: #10231a; --warn: #e0a24a; --err: #f2867e; --cited: #1d2e25;
+    }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.55 system-ui, sans-serif; }
+  main { max-width: 760px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 1.5rem; margin: 0 0 4px; }
+  .muted { color: var(--muted); font-size: .9rem; }
+  form { margin: 20px 0; display: grid; gap: 10px; }
+  textarea { width: 100%; min-height: 84px; padding: 12px; font: inherit; color: inherit; background: var(--card);
+             border: 1px solid var(--line); border-radius: 10px; resize: vertical; }
+  .row { display: flex; flex-wrap: wrap; gap: 14px; align-items: center; }
+  select, input[type=number] { font: inherit; color: inherit; background: var(--card); border: 1px solid var(--line);
+             border-radius: 8px; padding: 6px 8px; }
+  input[type=number] { width: 4.5em; }
+  button.primary { margin-left: auto; padding: 9px 20px; font: inherit; font-weight: 600; border: 0; border-radius: 8px;
+             background: var(--accent); color: var(--accent-fg); cursor: pointer; }
+  button.primary:disabled { opacity: .6; cursor: wait; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; margin: 16px 0; }
+  .answer { white-space: pre-wrap; font-size: 1.05rem; }
+  .cite { display: inline-block; margin: 0 2px; padding: 0 6px; font-size: .78rem; font-weight: 700; line-height: 1.5;
+          color: var(--accent); background: var(--cited); border: 1px solid var(--accent); border-radius: 6px; cursor: pointer; }
+  .warn { color: var(--warn); font-size: .92rem; margin-top: 8px; }
+  .error { color: var(--err); }
+  details.source { border: 1px solid var(--line); border-radius: 10px; margin: 8px 0; padding: 8px 12px; background: var(--card); }
+  details.source.cited { border-color: var(--accent); background: var(--cited); }
+  details.source.flash { outline: 2px solid var(--accent); }
+  summary { cursor: pointer; font-weight: 600; }
+  .source-text { white-space: pre-wrap; margin: 8px 0 0; font-size: .92rem; }
+  .meta { color: var(--muted); font-size: .8rem; font-weight: 400; }
+</style>
+</head>
+<body>
+<main>
+  <h1>Ask the docs</h1>
+  <div class="muted" id="status">Checking the index&hellip;</div>
+
+  <form id="form">
+    <textarea id="question" placeholder="Ask something about your documents&hellip;" required maxlength="2000"></textarea>
+    <div class="row">
+      <label>Search
+        <select id="mode">
+          <option value="hybrid" selected>hybrid</option>
+          <option value="dense">meaning only</option>
+          <option value="bm25">keywords only</option>
+        </select>
+      </label>
+      <label>Sources <input id="topk" type="number" min="1" max="10" value="4"></label>
+      <label><input id="rerank" type="checkbox"> rerank</label>
+      <button class="primary" id="submit" type="submit">Ask</button>
+    </div>
+  </form>
+
+  <div id="result"></div>
+</main>
+
+<script>
+const $ = (id) => document.getElementById(id);
+
+function el(tag, className, text) {
+  const node = document.createElement(tag);
+  if (className) node.className = className;
+  if (text !== undefined) node.textContent = text;   // textContent, never innerHTML: document text is untrusted
+  return node;
+}
+
+function errorMessage(data) {
+  if (typeof data.detail === "string") return data.detail;
+  if (Array.isArray(data.detail)) return data.detail.map((d) => d.msg).join("; ");
+  return "Something went wrong.";
+}
+
+function jumpToSource(n) {
+  const target = $("source-" + n);
+  if (!target) return;
+  target.open = true;
+  target.scrollIntoView({ behavior: "smooth", block: "center" });
+  target.classList.add("flash");
+  setTimeout(() => target.classList.remove("flash"), 1200);
+}
+
+function renderAnswer(text) {
+  const box = el("div", "answer");
+  // Turn [1] or [1, 2] into clickable badges; everything else stays plain text.
+  for (const part of text.split(/(\[\d+(?:\s*,\s*\d+)*\])/)) {
+    const match = part.match(/^\[(\d+(?:\s*,\s*\d+)*)\]$/);
+    if (!match) { box.append(part); continue; }
+    for (const n of match[1].split(",").map((s) => Number(s.trim()))) {
+      const badge = el("span", "cite", String(n));
+      badge.title = "Show source " + n;
+      badge.onclick = () => jumpToSource(n);
+      box.append(badge);
+    }
+  }
+  return box;
+}
+
+function renderSource(s) {
+  const details = el("details", "source" + (s.cited ? " cited" : ""));
+  details.id = "source-" + s.n;
+  const summary = el("summary");
+  summary.append(`[${s.n}] ${s.source} `);
+  const ranks = [];
+  if (s.dense_rank) ranks.push("meaning #" + s.dense_rank);
+  if (s.bm25_rank) ranks.push("keywords #" + s.bm25_rank);
+  summary.append(el("span", "meta", "\u203A " + s.section + (ranks.length ? "  (" + ranks.join(", ") + ")" : "")));
+  details.append(summary, el("div", "source-text", s.text));
+  return details;
+}
+
+function render(data) {
+  const out = $("result");
+  out.replaceChildren();
+  const card = el("div", "card");
+  card.append(renderAnswer(data.answer));
+  for (const w of data.warnings) card.append(el("div", "warn", "\u26A0 " + w));
+  const cost = data.cost_usd == null ? "" : ` \u00B7 ~$${data.cost_usd.toFixed(5)}`;
+  card.append(el("div", "muted",
+    `${data.model} \u00B7 retrieval ${Math.round(data.retrieval_ms)} ms \u00B7 generation ${Math.round(data.generation_ms)} ms \u00B7 ` +
+    `${data.input_tokens} in / ${data.output_tokens} out tokens${cost}`));
+  out.append(card, el("h3", null, data.answered ? "Sources" : "Sources searched (none contained the answer)"));
+  for (const s of data.sources) out.append(renderSource(s));
+}
+
+$("form").addEventListener("submit", async (event) => {
+  event.preventDefault();
+  const question = $("question").value.trim();
+  if (!question) return;
+  $("submit").disabled = true;
+  $("result").replaceChildren(el("div", "muted", "Thinking\u2026"));
+  try {
+    const res = await fetch("/ask", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        question,
+        mode: $("mode").value,
+        top_k: Number($("topk").value) || 4,
+        rerank: $("rerank").checked,
+      }),
+    });
+    const data = await res.json();
+    if (!res.ok) throw new Error(errorMessage(data));
+    render(data);
+  } catch (err) {
+    $("result").replaceChildren(el("div", "card error", err.message));
+  } finally {
+    $("submit").disabled = false;
+  }
+});
+
+fetch("/health").then((r) => r.json()).then((h) => {
+  $("status").textContent = h.status === "ok"
+    ? `${h.documents} documents \u00B7 ${h.chunks} chunks \u00B7 embeddings: ${h.embedder} \u00B7 model: ${h.llm}`
+    : "No index yet. Run: python -m rag.ingest";
+}).catch(() => { $("status").textContent = "Cannot reach the server."; });
+</script>
+</body>
+</html>

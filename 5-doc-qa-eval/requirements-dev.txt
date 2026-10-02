@@ -1,0 +1,9 @@
+# Enough to run the tests (no PyTorch, no API key). The tests use tf-idf embeddings and a fake LLM.
+numpy>=1.26
+scikit-learn>=1.5,<2.0
+joblib>=1.4
+fastapi>=0.115,<1.0
+httpx>=0.27
+pypdf>=4.0
+reportlab>=4.0
+pytest>=8.0

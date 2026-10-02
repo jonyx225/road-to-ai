@@ -1,0 +1,29 @@
+{
+  "n": 26,
+  "pass_rate": 0.34615384615384615,
+  "abstention_accuracy": 0.5384615384615384,
+  "content_accuracy": 0.5833333333333334,
+  "citation_validity_rate": 1.0,
+  "judge_faithful_rate": 1.0,
+  "judge_relevant_rate": 1.0,
+  "by_tag": {
+    "keyword": {
+      "n": 10,
+      "pass_rate": 0.7,
+      "abstention_accuracy": 0.9,
+      "content_accuracy": 0.7777777777777778
+    },
+    "paraphrase": {
+      "n": 12,
+      "pass_rate": 0.0,
+      "abstention_accuracy": 0.25,
+      "content_accuracy": 0.0
+    },
+    "unanswerable": {
+      "n": 4,
+      "pass_rate": 0.5,
+      "abstention_accuracy": 0.5,
+      "content_accuracy": null
+    }
+  }
+}
